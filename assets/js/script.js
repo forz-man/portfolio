@@ -195,6 +195,6 @@ function capitalizeFirstLetter(string) {
     // Clear the form fields
     setTimeout(() => {
       this.reset();
-    }, 300); // Adding a slight delay to ensure data submission before resetting
+    }, 100); // Adding a slight delay to ensure data submission before resetting
   });
 
