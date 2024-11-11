@@ -191,10 +191,10 @@ function capitalizeFirstLetter(string) {
 }
 
 // clear the fields after submission
- document.getElementById("contact-Form").addEventListener("submit", function() {
+ document.getElementById("contact-form").addEventListener("submit", function() {
     // Clear the form fields
     setTimeout(() => {
       this.reset();
-    }, 100); // Adding a slight delay to ensure data submission before resetting
+    }, 300); // Adding a slight delay to ensure data submission before resetting
   });
 
