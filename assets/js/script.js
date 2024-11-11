@@ -189,3 +189,12 @@ function closeModal() {
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+// clear the fields after submission
+ document.getElementById("contact-Form").addEventListener("submit", function() {
+    // Clear the form fields
+    setTimeout(() => {
+      this.reset();
+    }, 300); // Adding a slight delay to ensure data submission before resetting
+  });
+
